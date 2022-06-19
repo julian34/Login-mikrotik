@@ -1,0 +1,134 @@
+body {
+padding:0;margin:0 auto;
+    background:#ECEFF1;
+    position:relative;
+    top: -35px;
+    margin: 0;
+    padding: 0;
+}
+/*#head{
+    display: block;
+    background: #1976D2
+;
+    width: 100%;
+    height: 230px;
+    position:relative;
+    top:-37px;
+    z-index: 1;
+}
+#logo{
+position: relative;
+    top:0px;
+}
+
+legend{
+    position:relative;
+    top:0px;
+    color:#a9a9a9;
+    font-size: 20px;
+    font-family:sans-serif;
+    
+}*/
+#box{
+    position:relative;
+    top:-580px;
+	width:20%;
+	margin:0px auto;
+    z-index: 2;
+    border-radius:10px;
+    padding-top: 2px;
+
+
+
+
+}
+#box p{
+    color: #ECEFF1;
+    font-weight: bold;
+}
+/*#userdiv
+{
+    background: #1976D2 url(user.png) no-repeat center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 5px;
+    
+}
+
+
+/**------------USER------------**/
+#user{
+border:0px #ccc solid;
+    border-bottom:1px #ccc solid; color:#504e4e;background:whitesmoke;opacity: 1;
+height:30px;font-size:16px;
+display:block;width:90%;
+text-align:center;border-radius:0px;
+font-family:inherit;outline: none;
+border-radius:5px
+}
+/**--------------------PASSWORD----------**/
+#pass{
+    border:0px #ccc solid;
+    border-bottom:1px #ccc solid;
+    color:#212121;background:whitesmoke;opacity: 1;height:30px;font-size:16px;
+display:block;width:90%;text-align:center;border-radius:0px;font-family:inherit;outline: none;
+border-radius:5px; margin:2px;
+}
+/*---------------Boton---------*/
+#boton{
+	-webkit-appearance:none;color:#fff;
+	background-repeat: no-repeat; background-position:center; opacity: 1;
+    border:none;border-radius:5px;height:30px;width:90%;font-size:16px;font-weight:400;outline:0;text-transform:uppercase;
+    letter-spacing:1.5px;cursor:pointer;background-color:#0568ca;
+    }
+#boton:hover{
+	background-color: #e7b717;-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;-o-transition:all 0.3s ease;transition:all 0.3s ease
+	}
+    .vertical-form .footer{
+        position: relative;
+        top:-100px;
+        text-align:center;
+color:#ccc;
+position:relative;
+    top:-481px;}
+
+.vertical-form .footer a{text-decoration:none;color:#4285F4;}
+
+.footer{
+   opacity: 0;
+}
+
+@media screen and (min-width: 450px)  {
+    #box{
+        top:-267px;
+        right:50px;
+    
+    }
+    #boton{
+        font-size: 8px;
+    }
+
+}
+@media screen and (min-width: 550px){
+    #box{
+        top:-267px;
+        right:80px;
+    
+    }
+    #boton{
+        font-size: 10px;
+    }
+}
+@media screen and (min-width: 800px){
+    #box{
+        top:-267px;
+        right:220px;
+    
+    }
+    #boton{
+        font-size: 12px;
+    }
+}
+
+

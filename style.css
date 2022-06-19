@@ -1,0 +1,395 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Roboto:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    /* display: flex; */
+    min-height: 100vh;
+    width: 100%;
+    background: url('assets/bg.png') no-repeat center center fixed;
+    background-size: cover;
+}
+/* Header */
+
+.heder-box-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.heder-box-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.heder-box-1 .logo-pemprov {
+    width: 60px;
+    height: 70px;
+    margin-left: 45px !important;
+    filter: drop-shadow(0px 0px 10px #000);
+}
+
+.heder-box-1 h6{
+  color : #fabd04;
+  padding-left: 10px;
+  display: none;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  /* text-align: center; */
+  font-size: 24px;
+  -webkit-text-stroke: 0.4px #000000;
+  text-shadow: 10px 10px 10px #000000;
+}
+
+.heder-box-2 .logo-g20 {
+    width: 80px;
+    height: 100px;
+    filter: drop-shadow(0px 0px 10px #000);
+}
+/* Header */
+
+/* judul */
+.label-dinas{
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight:900;
+    font-size: 30px;
+    text-align: center;
+    color:  #fabd04;
+    -webkit-text-stroke: 2px #000000;
+	text-shadow: 10px 10px 10px #000000;
+}
+/* jusul */
+
+/* team-info */
+
+.team-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.team-info .card{
+    width: 330px;
+    height: 416px;
+    padding: 60px 30px;
+    margin: 20px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0.6rem 0.6rem 1.2em #d2dce9,
+                -0.5rem -0.5rem 1em #ffffff;
+    border-radius: 30px
+}
+
+.team-info .card .content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.team-info .card .content .imgBx{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    position: relative;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+.team-info .card .content .imgBx img{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.team-info .card .content .contentBx h4{
+    color: #36187d;
+    font-size: 1.7rem;
+    font-weight:900;
+    text-align: center;
+    letter-spacing: 0.2rem;
+    font-family: 'Lato', sans-serif;
+}
+
+.team-info .card .content .contentBx h5{
+    font-size: 1.2rem;
+    font-weight:700;
+    text-align: center;
+    letter-spacing: 0.2rem;
+    font-family: 'Lato', sans-serif;
+}
+/* team-info */
+
+/* form */
+h5.card-title {
+    font-size: 15px;
+}
+
+.fw-400 {
+    font-family: "Roboto", sans-serif;
+    font-weight: bold !important;
+}
+
+.card-title {
+    font-family: Roboto,sans-serif;
+    font-weight: 300;
+    line-height: 1.5;
+    margin-bottom: 0;
+    padding: 15px 20px;
+    border-bottom: 1px solid rgba(77,82,89,0.07);
+}
+
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-control {
+    border-color: #ebebeb;
+    border-radius: 2px;
+    color: #8b95a5;
+    padding: 5px 12px;
+    font-size: 14px;
+    line-height: inherit;
+    -webkit-transition: 0.2s linear;
+    transition: 0.2s linear;
+}
+
+.card-body>*:last-child {
+    margin-bottom: 0;
+}
+
+button btn{
+    border-radius: 100px;
+}
+
+.btn-primary {
+    background-color: #36187d;
+    border-color: #33cabb;
+    color: #fff;
+}
+.btn-bold {
+    font-family: Roboto,sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.btn-primary:hover {
+    background-color:#36187d;
+    border-color: #52d3c7;
+    color: #fff;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.form-control:focus {
+    border-color: #83e0d7;
+    color: #4d5259;
+    -webkit-box-shadow: 0 0 0 0.1rem rgba(51,202,187,0.15);
+    box-shadow: 0 0 0 0.1rem rgba(51,202,187,0.15);
+}
+
+.custom-radio {
+    cursor: pointer;
+}
+
+.custom-control {
+    display: -webkit-box;
+    display: flex;
+    min-width: 18px;
+}
+
+/* form */
+
+
+/* footer */
+.img-spbe{
+    width: 100px;
+    height: 70px;
+}
+
+.img-tobi{
+    width: 100px;
+    height: 70px;
+}
+
+.logo-kegiatan{
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; */
+    margin-bottom: 100px;
+    padding-bottom: 20px;
+}
+
+.link{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.link:hover{
+    color: white;
+}
+
+.link-title{
+    display: none;
+}
+
+.so-title{
+    color: white;
+    font-size: 18px;
+    margin-left:10px;
+    margin-right:auto;
+}
+
+.desktop-sosmed{
+ display: none;
+}
+
+.desktop-sosmed a{
+    font-size: 13px;
+}
+/* footer */
+.desktop-content{
+    display: none;
+}
+/* content */
+
+/*  */
+/* size device */
+/* // Small devices (landscape phones, less than 768px) */
+@media (min-width: 767.98px) {
+    .heder-box-1{
+        display:block;
+        justify-content:left;
+        align-items: center;
+        flex-wrap: wrap;
+    } 
+    .heder-box-1 .logo-pemprov {
+        margin-left:0px !important;
+    }
+    .heder-box-2{
+        display: flex;
+        justify-content:right;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .heder-box-1 h6{
+        margin-top: 30px;
+        color : #fabd04;
+        padding-left: 40px;
+        display: block;
+        /* text-align: center; */
+    }
+    .label-dinas{
+        font-weight:900;
+        font-size: 60px;
+    }
+
+    .so-title{
+        color: white;
+        font-size: 18px;
+        margin-left:15px;
+        margin-right:auto;
+    }
+    
+    .mobile-sosmed{
+        display: none;
+    }
+
+    .desktop-sosmed{
+        display: block;
+        font-size: 24px;
+    }
+
+    .desktop-content{
+        display: flex;
+    }
+
+    .mobile-content{
+        display: none;
+    }
+}
+
+
+
+/* // Medium devices (tablets, less than 992px) */
+@media (min-width: 991.98px) {
+    .heder-box-1{
+        display:block;
+        justify-content:left;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .heder-box-1 .logo-pemprov {
+        margin-left:0px !important;
+    }
+
+    .heder-box-2{
+        display: flex;
+        justify-content:right;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .heder-box-1 h6{
+        margin-top: 30px;
+        color : #fabd04;
+        padding-left: 40px;
+        display: block;
+        /* text-align: center; */
+      }
+
+    .label-dinas{
+        font-weight:900;
+        font-size: 60px;
+    }
+    
+    .link{
+        font-size: 10px;
+    }
+
+    .so-title{
+        color: white;
+        font-size: 18px;
+        margin-left:15px;
+        margin-right:auto;
+    }
+
+    .link-title{
+        display: block;
+    }
+    
+    .desktop-content{
+        display: flex;
+    }
+
+    .mobile-content{
+        display: none;
+    }
+}
+/* size device */
